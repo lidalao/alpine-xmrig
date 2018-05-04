@@ -5,6 +5,7 @@ RUN   apk --no-cache upgrade && \
         git \
         cmake \
         libuv-dev \
+        libmicrohttpd-dev \
         build-base && \
       git clone https://github.com/lidalao/xmrig && \
       cd xmrig && \
